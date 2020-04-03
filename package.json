@@ -1,6 +1,6 @@
 {
     "name": "ant-design-vue",
-    "version": "1.5.0-rc.7",
+    "version": "1.5.1",
     "title": "Ant Design Vue",
     "description": "An enterprise-class UI design language and Vue-based implementation",
     "keywords": [
@@ -27,7 +27,7 @@
     ],
     "scripts": {
         "dev": "webpack-dev-server",
-        "start": "cross-env PORT=3001 NODE_ENV=development webpack-dev-server --config build/webpack.dev.conf.js",
+        "start": "cross-env NODE_ENV=development webpack-dev-server --config webpack.config.js",
         "test": "cross-env NODE_ENV=test jest --config .jest.js",
         "compile": "node antd-tools/cli/run.js compile",
         "pub": "node antd-tools/cli/run.js pub",
@@ -160,7 +160,7 @@
         "vue-router": "^3.0.1",
         "vue-server-renderer": "^2.6.11",
         "vue-template-compiler": "^2.6.11",
-        "vue-virtual-scroller": "^0.12.0",
+        "vue-virtual-scroller": "^1.0.0",
         "vuex": "^3.1.0",
         "webpack": "^4.28.4",
         "webpack-cli": "^3.2.1",
